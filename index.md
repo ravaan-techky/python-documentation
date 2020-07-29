@@ -22,13 +22,13 @@ High Level Programming Language
   - Reading and editing excel files
   - Works with PDFs
   - Automated Emails and text messages
-  - Fill out the forms.
- - Data Science & Machine Learning
+  - Fill out the forms.  
+- Data Science & Machine Learning
   - Analyzing large data files [Numpy & Pandas]
   - Creating visualization [Matplotlib & Seaborn]
   - Perform machine learning task [Plotly & touchup flow]
   - Create and run predicitive algorithms [Plotly & touchup flow]
- - Create website
+- Create website
   - Use web framework such as Django & flask to handle backend of website & user data.
   - Creating an interactive Dashboard for users.
   
