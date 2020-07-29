@@ -9,11 +9,20 @@ High Level Programming Language
 - Multi Paradigm Language Support (It support Object Oriented and Procedure Oriented Concepts)
 
 ### Language is base on philosophy:
+```markdown
 - Beautiful is better than Ugly.
 - Explicit is better than Implicit
 - Simple is better than complex
 - Complex is better than Complicated
 - Increase Readability counts
+```
+
+### Features
+- Developers can learn it quickly.
+- Typically involves less code
+- Syntax is easier to read
+- Utilized by every major technology company.
+- Huge amount of additional Open-Source libraries.
 
 ### What we can do with Python
 - Automated Simple Tasks
