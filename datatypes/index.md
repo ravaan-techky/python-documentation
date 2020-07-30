@@ -48,7 +48,7 @@ myString = 'abcdefghij'
 ```
 ![string_operations](../images/string-operation.png)
 
-*Indexing Operations:*
+**Indexing Operations:**
 
 | Input | Output |
 | --- | --- |
@@ -57,7 +57,7 @@ myString = 'abcdefghij'
 | myString[-1] | j |
 | myString[-2] | c |
 
-*Slice Operations:*
+**Slice Operations:**
 
 | Input | Output |
 | --- | --- |
