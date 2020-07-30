@@ -40,6 +40,10 @@ High Level Programming Language
 - Create website
   - Use web framework such as Django & flask to handle backend of website & user data.
   - Creating an interactive Dashboard for users.
-  
+ 
+### Topics
+- **[Python Installation]**(installations/index.md)
+- **[Datatypes]**(datatypes/index.md) 
+ 
 <br/><br/>
 [<i class="fa fa-arrow-left"></i> **Back**](/documentation/)
