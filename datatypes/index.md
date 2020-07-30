@@ -19,5 +19,18 @@ Example, -
 - May result in *bugs* for unexcepted data types!
 - you need to be aware of type()
 
+### Available data type:
+
+| Data type | Python syntax | Description |
+| --- | --- | --- |
+| Integer | int | Whole number Example, - 10 100 300 |
+| Floating Point | float | Number with decimal points Example, - 11.50 100.02 |
+| String | str | Ordered sequence of characters. Example, - "Hello" 'Hi' "200". Able to represent in single quote OR in double quote |
+| List | list | Ordered sequence of Objects. Example, - [10, 'Hello', 20] |
+| Dictionaries | dict | Unordered key-value paired. Example,- {"key1":"value1", "key2":"value2"} |
+| Tuples | tup | Ordered immutable sequence of objects: {"hey", 200, "Hello"}. **Note:** Once tupple is create, we can't change its sequence at runtime. |
+| Sets | set | Unordered collection of unique objects: {"A", "F", "G"} |
+| Booleans | bool | logical value indicating true OR false |
+
 <br/><br/>
 [<i class="fa fa-arrow-left"></i> **Back**](/python-documentation/)
