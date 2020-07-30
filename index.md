@@ -42,8 +42,8 @@ High Level Programming Language
   - Creating an interactive Dashboard for users.
  
 ### Topics
-- **[Python Installation]**(installations/index.md)
-- **[Datatypes]**(datatypes/index.md) 
+- [Python Installation](installations/index.md)
+- [Datatypes](datatypes/index.md) 
  
 <br/><br/>
 [<i class="fa fa-arrow-left"></i> **Back**](/documentation/)
