@@ -1,22 +1,23 @@
 ## Python
-Python Installations
+Python Datatypes
 
-### Installations:
-Python can be install as a distribution part of Anaconda. There is also Minconda version available.
-Anaconda provide all Open-Source libraries along with Python distribution, while Miniconda provide
-minimum set of distribution for small scale hardware machine.
+### Overview:
+Python supports **Dynamic Type Bindings**. That means, - we can declare variable with one datatype and 
+change type of value on next line. 
+Example, - 
+ ```markdown
+  myString = 10
+  print("Number value from myString variable - " + myString)
+  myString = "Ten"
+  print("String value from myString variable - " + Ten)
+ ```
+**Pros of Dynamic Type Bindings:**
+- Very easy to work with
+- Faster development time.
 
-Anaconda Link - https://www.anaconda.com/products/individual
-
-### Editos
-- **Text Editors**
- - Sublime Text https://www.sublimetext.com/
- - Atom
-- **Full IDEs**
- - PyCharm - https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows&code=PCC
- - Spyder
-- **Notebook Environment**
- - Jupyter Notebook: Jupyter Notebook came as distribution part of Anaconda.
+**Cons of Dynamic Type Bindings:**
+- May result in *bugs* for unexcepted data types!
+- you need to be aware of type()
 
 <br/><br/>
 [<i class="fa fa-arrow-left"></i> **Back**](/python-documentation/)
