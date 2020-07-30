@@ -46,7 +46,7 @@ Example, -
 ```markdown
 myString = 'abcdefghij'
 ```
-![string_operations](images/string-operation.png)
+![string_operations](../images/string-operation.png)
 
 *Indexing Operations:*
 
