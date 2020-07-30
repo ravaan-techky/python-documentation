@@ -1,9 +1,9 @@
 ## Python
 Python Datatypes
 
-### Overview:
 Python supports **Dynamic Type Bindings**. That means, - we can declare variable with one datatype and 
 change type of value on next line. 
+
 Example, - 
  ```markdown
   myString = 10
@@ -11,15 +11,15 @@ Example, -
   myString = "Ten"
   print("String value from myString variable - " + Ten)
  ```
-**Pros of Dynamic Type Bindings:**
+*Pros of Dynamic Type Bindings:*
 - Very easy to work with
 - Faster development time.
 
-**Cons of Dynamic Type Bindings:**
+*Cons of Dynamic Type Bindings:*
 - May result in *bugs* for unexcepted data types!
 - you need to be aware of type()
 
-### Available data type:
+### Available data types:
 
 | Data type | Python syntax | Description |
 | --- | --- | --- |
@@ -31,6 +31,19 @@ Example, -
 | Tuples | tup | Ordered immutable sequence of objects: {"hey", 200, "Hello"}. **Note:** Once tupple is create, we can't change its sequence at runtime. |
 | Sets | set | Unordered collection of unique objects: {"A", "F", "G"} |
 | Booleans | bool | logical value indicating true OR false |
+
+### String data type:
+- Jupter Notebook differences:
+
+ | Without print method | With print method |
+ | --- | --- |
+ | Input:<br/>"Hello World String 1"<br/>"Hello World String 2" | Input:<br/>print("Hello World String 1")<br/>print("Hello World String 2") |
+ | Output:<br/> "Hello World String 2" | Output:<br/>Hello World String 1<br/>Hello World String 2 |
+ 
+- String indexing and slice operation:
+
+
+
 
 <br/><br/>
 [<i class="fa fa-arrow-left"></i> **Back**](/python-documentation/)
