@@ -1,20 +1,18 @@
 ## Python
 String data type:
 
-- Jupter Notebook differences:
+- Order sequence that can hold a variety of object types.
+- list support indexing & splicing operation.
+- list element can access through forward indexing or reverse indexing
+- list can be nested and also have a variety of useful methods that can be called them to perform operation.
+- list is mutuable. That means, - we can change element with the help of indexing.
 
- | Without print method | With print method |
- | --- | --- |
- | Input:<br/>"Hello World String 1"<br/>"Hello World String 2" | Input:<br/>print("Hello World String 1")<br/>print("Hello World String 2") |
- | Output:<br/> "Hello World String 2" | Output:<br/>Hello World String 1<br/>Hello World String 2 |
- 
-- String indexing and slice operation:
 Example, - 
 
 ```markdown
-myString = 'abcdefghij'
+my_list = [1, 'Two', 23.0, 'Three']
 ```
-![string_operations](../../images/string-operation.png)
+![list_operations](../../images/list-operation.png)
 
 **Indexing Operations:**
 
