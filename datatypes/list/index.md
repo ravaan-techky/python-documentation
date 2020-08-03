@@ -18,22 +18,21 @@ my_list = [1, 'Two', 23.0, 'Three']
 
 | Input | Output |
 | --- | --- |
-| myString[0] | a |
-| myString[8] | i |
-| myString[-1] | j |
-| myString[-2] | c |
+| my_list[0] | 'One' |
+| my_list[5] | 'Six' |
+| my_list[-2] | 'Five' | 
 
 **Slice Operations:**
 
 | Input | Output |
 | --- | --- |
-| myString[2:] | cdefghij |
-| myString[:3] | abc |
-| myString[2:5] | cd |
-| myString[::] | abcdefghij |
-| myString[::2] | acegi |
-| myString[::3] | adgj |
-| myString[::-1] | jihgfedcba |
+| my_list[2:] | ['Three', 'Four', 'Five', 'Six'] |
+| my_list[:3] | ['Once', 'Two', 'Three'] |
+| my_list[2:5] | ['Three', 'Four'] |
+| my_list[::] | ['One', 'Two', 'Three', 'Four', 'Five', 'Six'] |
+| my_list[::2] | ['One', 'Three', 'Five'] |
+| my_list[::3] | ['One', 'Four'] |
+| my_list[::-1] | ['Six', 'Five', 'Four', 'Three', 'Two', 'One'] |
 
 <br/><br/>
 [<i class="fa fa-arrow-left"></i> **Back**](../)
