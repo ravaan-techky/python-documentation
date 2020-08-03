@@ -23,7 +23,7 @@ myString = 'abcdefghij'
 | myString[0] | a |
 | myString[8] | i |
 | myString[-1] | j |
-| myString[-2] | c |
+| myString[-2] | c | 
 
 **Slice Operations:**
 
@@ -38,4 +38,4 @@ myString = 'abcdefghij'
 | myString[::-1] | jihgfedcba |
 
 <br/><br/>
-[<i class="fa fa-arrow-left"></i> **Back**](../datatypes/)
+[<i class="fa fa-arrow-left"></i> **Back**](../)

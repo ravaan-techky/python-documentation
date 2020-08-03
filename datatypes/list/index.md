@@ -36,4 +36,4 @@ my_list = [1, 'Two', 23.0, 'Three']
 | myString[::-1] | jihgfedcba |
 
 <br/><br/>
-[<i class="fa fa-arrow-left"></i> **Back**](../datatypes/)
+[<i class="fa fa-arrow-left"></i> **Back**](../)
