@@ -22,6 +22,7 @@ my_list = [1, 'Two', 23.0, 'Three']
 | my_list[5] | 'Six' |
 | my_list[-2] | 'Five' | 
 
+<br/>
 **Slice Operations:**
 
 | Input | Output |

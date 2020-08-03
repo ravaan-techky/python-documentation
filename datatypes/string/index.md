@@ -25,6 +25,7 @@ myString = 'abcdefghij'
 | myString[-1] | j |
 | myString[-2] | c | 
 
+<br/>
 **Slice Operations:**
 
 | Input | Output |
