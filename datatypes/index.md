@@ -31,6 +31,7 @@ Example, -
 | Tuples | tup | Ordered immutable sequence of objects: {"hey", 200, "Hello"}. **Note:** Once tupple is create, we can't change its sequence at runtime. |
 | Sets | set | Unordered collection of unique objects: {"A", "F", "G"} |
 | Booleans | bool | logical value indicating true OR false |
+| NoneType | None | void object. |
 
 ### Few datatype with explaination & examples:
 - [**string**](string/)
