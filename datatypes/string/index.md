@@ -1,5 +1,5 @@
 ## Python
-String data type:
+String datatype:
 
 - Jupter Notebook differences:
 

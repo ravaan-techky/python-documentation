@@ -1,5 +1,5 @@
 ## Python
-dictionary datatype:
+dictionary data type:
 
 - Unsorted mapping for storing objects.
 - dictionary uses key-value pairing.

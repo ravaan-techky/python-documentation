@@ -1,5 +1,5 @@
 ## Python
-list data type:
+list datatype:
 
 - Order sequence that can hold a variety of object types.
 - list support indexing & splicing operation.
