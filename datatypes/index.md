@@ -46,9 +46,10 @@ Example, -
  Example,- 
  ```markdown
     Input  => 
-	         my_var = 12
-	         type(my_var)
-	output => int
+	        my_var = 12
+	        type(my_var)
+	output => 
+			int
  ```
  - **ordereddict** dictionary maintain key order also. 
 <br/><br/>
