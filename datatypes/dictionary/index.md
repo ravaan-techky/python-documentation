@@ -27,7 +27,6 @@ Output =>
 30.00
 ```
 
-<br/>
 **Example - 2:**
 ```markdown
 Input =>
@@ -37,7 +36,6 @@ Output =>
 B
 ```
 
-<br/>
 **Example - 3:**
 ```markdown
 Input =>
@@ -47,7 +45,6 @@ Output =>
 3
 ```
 
-<br/>
 **Example - 4:**
 ```markdown
 Input =>
@@ -59,7 +56,6 @@ Output =>
 John Smith age is 20
 ```
 
-<br/>
 **Example - 5: Adding element into dictionary**
 ```markdown
 Input =>
@@ -73,7 +69,6 @@ Output =>
 John Smith age is 25
 ```
 
-<br/>
 **Other useful methods:**
 ```markdown
 Input =>
