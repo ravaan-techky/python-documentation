@@ -36,6 +36,20 @@ Example, -
 ### Few datatype with explaination & examples:
 - [**string**](string/)
 - [**list**](list/)
+- [**dictionary**](dictionary/)
+- [**tuple**](tuple/)
+- [**set**](set/)
+- [**miscellaneous**](miscellaneous/)
 
+### Notes:
+ - **type()** method use to identfy datatype of given object.
+ Example,- 
+ ```markdown
+    Input  => 
+	         my_var = 12
+	         type(my_var)
+	output => int
+ ```
+ - **ordereddict** dictionary maintain key order also. 
 <br/><br/>
 [<i class="fa fa-arrow-left"></i> **Back**](/python-documentation/)
