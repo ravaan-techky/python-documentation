@@ -1,85 +1,55 @@
 ## Python
-dictionary data type:
+set datatype:
 
-- Unsorted mapping for storing objects.
-- dictionary uses key-value pairing.
-- We can quickly grab value object with the help by key.
-- dictionary use curly braces and colon to specify the keys and their assiciated values.
+- unordered collection of unique elements.
+- There only be one representative of the same object.
+  Example, - 
+	```markdown
+		my_set = set()
+	```
 
-Example, - 
+### Set operations
 
+**Adding element into set**
 ```markdown
 Input =>
-my_dict = {"banana":10.00, "apple":30.00, "orange":25.50}
-print(my_dict)
+	my_set = set()
+	my_set.add(1);
+	print(my_set)
+	my_set.add(2);
+	print(my_set)
+	my_set.add(2);
+	print(my_set)
 Output =>
-{"banana":10.00, "apple":30.00, "orange":25.50}
+	{1}
+	{1, 2}
+	{1, 2} //No duplicate element is allowed
 ```
 
-### dictionary operations
-
-**Example - 1:**
+**Adding element into set from list**
 ```markdown
 Input =>
-my_dict = {"banana":10.00, "apple":30.00, "orange":25.50}
-my_dict['apple']
+	my_list = [3, 1, 5, 1, 2, 4]
+	print(my_list)
+	my_set = set(my_list)
+	print(my_set)
 Output =>
-30.00
+	[3, 1, 5, 1, 2, 4]
+	{3, 1, 5, 2}
 ```
 
-**Example - 2:**
+**Adding element into set from string**
 ```markdown
 Input =>
-my_dict = {"key1":"a", "key2":"b", "key3":"c"}
-my_dict['key2'].upper()
+	my_string = 'apple'
+	print(my_string)
+	my_set = set(my_string)
+	print(my_set)
 Output =>
-B
+	apple
+	{'a', 'p', 'l', 'e'}
 ```
 
-**Example - 3:**
-```markdown
-Input =>
-my_dict = {"k1":"a", "k2":[1, 2, 3], "k3":"c"}
-my_dict['k2'][2]
-Output =>
-3
-```
-
-**Example - 4:**
-```markdown
-Input =>
-my_dict = {"username":"jsmith", "detail":{"firstName":"John", "lastName":"Smith", "age":20}}
-my_dict['detail']['age']
-print(my_dict['detail']['firstName'] + ' ' + my_dict['detail']['lastName'] + ' age is ' + my_dict['detail']['age'])
-Output =>
-20
-John Smith age is 20
-```
-
-**Example - 5: Adding element into dictionary**
-```markdown
-Input =>
-my_dict = {"username":"jsmith", "detail":{"firstName":"John", "lastName":"Smith", "age":20}}
-my_dict['address'] = 'India'
-my_dict['detail']['age'] = 25
-my_dict
-print(my_dict['detail']['firstName'] + ' ' + my_dict['detail']['lastName'] + ' age is ' + my_dict['detail']['age'])
-Output =>
-{"username":"jsmith", "detail":{"firstName":"John", "lastName":"Smith", "age":20}, "address": "India"}
-John Smith age is 25
-```
-
-**Other useful methods:**
-```markdown
-Input =>
-my_dict = {"banana":10.00, "apple":30.00, "orange":25.50}
-```
-
-| Method | Usage | Output | Additional Information |
-| --- | --- | --- | --- |
-| keys | my_dict.keys() | ['banana', 'apple', 'orange'] | Method returns all keys from dictionary |
-| values | my_dict.values() | [10.00, 30.00, 25.50] | Method returns all values from dictionary |
-| items | my_dict.items() | ("banana":10.00, "apple":30.00, "orange":25.50) | Method returns tuple from dictionary. Tuple is immutuable. not able to re-assigned |
 
 <br/><br/>
 [<i class="fa fa-arrow-left"></i> **Back**](../)
