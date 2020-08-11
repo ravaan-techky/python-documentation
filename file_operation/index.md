@@ -5,10 +5,10 @@ File operations:
 Note: If we dont have Jupter notebook, we can use simple text editor to create file
 
 ```markdown
-	%%writefile sampleTest.txt
-	This is new file created.
-	This is second line of file.
-	This is third line of file.
+%%writefile sampleTest.txt
+This is new file created.
+This is second line of file.
+This is third line of file.
 ```
 
 ### File operations:
@@ -19,6 +19,38 @@ Note: If we dont have Jupter notebook, we can use simple text editor to create f
 | read | myFileObject.read() | This is new file created.\nThis is second line of file.\nThis is third line of file. | Once you call read() method on file object, it sets at the end of file. After that if we call it again in that case it will print empty string i.e., '' |
 | seek | myFileObject.seek(0) | This method use to set file pointer to start of file.|
 | close | myFileObject.close() |  | If file is open in Read / Write mode in that case need to close otherwise other cann't able to do any operation on file. |
+
+### Example:
+
+```python
+# In jupyter notebook
+%%writefile sampleTest.txt
+This is new file created.
+This is second line of file.
+This is third line of file.
+
+#File sampleTest.txt has been create in current directory.
+
+#Creating file object
+myFileObject = open('sampleTest.txt')
+
+#Calling read method on file object
+myFileObject.read()
+#Output: This is new file created.\nThis is second line of file.\nThis is third line of file.
+
+#Calling read method on file object. This time file cursor is at end of file location.
+myFileObject.read()
+#Output: ''
+
+#Setting up file cursor to start of file location.
+myFileObject.seek(0)
+
+#Calling read method on file object
+print(myFileObject.read())
+#Output: This is new file created.
+		 This is second line of file.
+		 This is third line of file.
+```
 
 <br/><br/>
 [<i class="fa fa-arrow-left"></i> **Back**](../)
