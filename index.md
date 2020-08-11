@@ -44,7 +44,8 @@ High Level Programming Language
 ### Topics
 - [Python Installation](installations/index.md)
 - [Datatypes](datatypes/index.md) 
-- [IO Operations](file_operation/index.md) 
+- [IO Operations](file_operation/index.md)
+- [Operators and Statement Condition](operators_statements/index.md) 
  
 <br/><br/>
 [<i class="fa fa-arrow-left"></i> **Back**](/documentation/)
