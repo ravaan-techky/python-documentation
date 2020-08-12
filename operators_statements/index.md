@@ -138,11 +138,11 @@
  ```python
 	while some_condition:
 		//do something
-	else?
+	else:
 		//do something different
  ```
  
-**Example**
+**Example 1**
 ```python
 	num = 0
 	while num < 5:
@@ -155,6 +155,34 @@
 	Number 3
 	Number 4
 ```
+
+**Example 2**
+```python
+	num = 0
+	while num < 5:
+		print('Number {}'.format(num))
+		num += 1
+	else:
+		print('Number is greater than 5')
+	Output:
+	Number 0
+	Number 1
+	Number 2
+	Number 3
+	Number 4
+	Number is greater than 5
+```
+
+### break, continue and pass statements in LOOP:
+
+We can use break, continue and pass statements in our loop to add additional functionality for various cases.
+
+| Statement | Description |
+| --- | --- |
+| break | Breaks out of the current closest enclosing loop |
+| continue | Goes to the top of the closest enclosing loop |
+| pass | does nothing at all |
+
 
 <br/><br/>
 [<i class="fa fa-arrow-left"></i> **Back**](../)
