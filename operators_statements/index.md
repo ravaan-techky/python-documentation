@@ -4,9 +4,9 @@
 
 | Operator | Example | Description |
 | --- | --- | --- |
-| and | Input: 1 == 1 and 2 < 4 Output: True Input: 1 == 1 and 2 != 2 Output: False | Both condition must True. |
-| or | Input: 1 == 1 or 2 < 4 Output: True Input: 1 == 1 or 2 != 2 Output: True | One of the condition from both must True. |
-| not | Input: not 1 != 2 Output: True Input: not 1 == 1 Output: False | Negection of actual result. |
+| and | Input: 1 == 1 and 2 < 4 <br/>Output: True <br/>Input: 1 == 1 and 2 != 2 <br/>Output: False | Both condition must True. |
+| or | Input: 1 == 1 or 2 < 4 <br/>Output: True <br/>Input: 1 == 1 or 2 != 2 <br/>Output: True | One of the condition from both must True. |
+| not | Input: not 1 != 2 <br/>Output: True <br/>Input: not 1 == 1 <br/>Output: False | Negection of actual result. |
 
 ### IF, ELIF and ELSE statement:
 
