@@ -3,9 +3,9 @@
 ### Logical operator:
 | Operator | Example | Description |
 | --- | --- | --- |
-| 'and' | Input: 1 == 1 and 2 < 4<br/>Output: True<br/>Input: 1 == 1 and 2 != 2<br/>Output: False | Both condition must True. |
-| 'or' | Input: 1 == 1 or 2 < 4<br/>Output: True<br/>Input: 1 == 1 or 2 != 2<br/>Output: True | One of the condition from both must True. |
-| 'not' | Input: not 1 != 2 <br/>Output: True<br/>Input: not 1 == 1 <br/>Output: False | Negection of actual result. |
+| 'and' | Input: 1 == 1 and 2 < 4 Output: True Input: 1 == 1 and 2 != 2 Output: False | Both condition must True. |
+| 'or' | Input: 1 == 1 or 2 < 4 Output: True Input: 1 == 1 or 2 != 2 Output: True | One of the condition from both must True. |
+| 'not' | Input: not 1 != 2 Output: True Input: not 1 == 1 Output: False | Negection of actual result. |
 
 ### IF, ELIF and ELSE statement:
 
@@ -72,8 +72,8 @@
 	3
 	4
  ```
+ **tuples packing and unpacking using FOR LOOP**
  
- ### tuples packing and unpacking using FOR LOOP
  **tuple Example** 
  ```python
 	myList = [(1, 2), (3, 4), (5, 6)]
@@ -131,6 +131,29 @@
 	Pune
  ```
  
+ ### WHILE LOOP statement:
+ 
+ **syntax**
+ ```python
+	while some_condition:
+		//do something
+	else?
+		//do something different
+ ```
+ 
+**Example**
+```python
+	num = 0
+	while num < 5:
+		print('Number {}'.format(num))
+		num += 1
+	Output:
+	Number 0
+	Number 1
+	Number 2
+	Number 3
+	Number 4
+```
 
 <br/><br/>
 [<i class="fa fa-arrow-left"></i> **Back**](../)
