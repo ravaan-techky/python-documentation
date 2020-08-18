@@ -45,7 +45,9 @@ High Level Programming Language
 - [Python Installation](installations/index.md)
 - [Datatypes](datatypes/index.md) 
 - [IO Operations](file_operation/index.md)
-- [Operators and Statement Condition](operators_statements/index.md) 
+- [Operators and Statement Condition](operators_statements/index.md)
+- [Function](function/index.md)
+- [Object Oriented Programming](object_oriented_programming/index.md)
  
 <br/><br/>
 [<i class="fa fa-arrow-left"></i> **Back**](/documentation/)
