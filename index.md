@@ -48,6 +48,7 @@ High Level Programming Language
 - [Operators and Statement Condition](operators_statements/index.md)
 - [Function](function/index.md)
 - [Object Oriented Programming](object_oriented_programming/index.md)
+- [Errors and Exception Handling](errors_and_exceptions/index.md)
  
 <br/><br/>
 [<i class="fa fa-arrow-left"></i> **Back**](/documentation/)
