@@ -49,6 +49,7 @@ High Level Programming Language
 - [Function](function/index.md)
 - [Object Oriented Programming](object_oriented_programming/index.md)
 - [Errors and Exception Handling](errors_and_exceptions/index.md)
+- [Decorators](decorators/index.md)
  
 <br/><br/>
 [<i class="fa fa-arrow-left"></i> **Back**](/documentation/)
