@@ -50,6 +50,7 @@ High Level Programming Language
 - [Object Oriented Programming](object_oriented_programming/index.md)
 - [Errors and Exception Handling](errors_and_exceptions/index.md)
 - [Decorators](decorators/index.md)
+- [Generators](generators/index.md)
  
 <br/><br/>
 [<i class="fa fa-arrow-left"></i> **Back**](/documentation/)
