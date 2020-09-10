@@ -68,5 +68,75 @@ Output:
 ```
  In above get_cube function, we are not creating result array and generate one value at a time.
  
+ ### next function
+ On Generator object we can use next function to return next value from result.
+ Example, - 
+ ```python
+ def get_cube(n):
+    for num in range(n):
+        yield num **3
+ ```
+ Input:
+ ```python
+ res = get_cube(5)
+ next(res)
+ next(res)
+ next(res)
+ ```
+ Output:
+ ```python
+ 0
+ 1
+ 8
+ ```
+ 
+ next function give error in case if object is not type of generator
+ Example, - 
+ ```python
+def get_cube(n):
+    result = []
+    for num in range(n):
+        result.append(num ** 3)
+    return result
+ ```
+ Input:
+ ```python
+ res = get_cube(5)
+ next(res)
+ ```
+ Output:
+ ```python
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-9-99bd7a0c47e0> in <module>
+----> 1 next(res)
+
+TypeError: 'list' object is not an iterator
+ ```
+ 
+ To provide 'list' object an iterator, we can use iter method
+  Example, - 
+ ```python
+def get_cube(n):
+    result = []
+    for num in range(n):
+        result.append(num ** 3)
+    return result
+ ```
+ Input:
+ ```python
+ res = get_cube(5)
+ new_res = iter(res)
+ next(new_res)
+ next(new_res)
+ next(new_res)
+ ```
+  Output:
+ ```python
+ 0
+ 1
+ 8
+ ```
+ 
 <br/><br/>
 [<i class="fa fa-arrow-left"></i> **Back**](/documentation/)
