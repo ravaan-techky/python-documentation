@@ -79,9 +79,9 @@ Output:
  Input:
  ```python
  res = get_cube(5)
- next(res)
- next(res)
- next(res)
+ print(next(res))
+ print(next(res))
+ print(next(res))
  ```
  Output:
  ```python
@@ -102,7 +102,7 @@ def get_cube(n):
  Input:
  ```python
  res = get_cube(5)
- next(res)
+ print(next(res))
  ```
  Output:
  ```python
@@ -127,9 +127,9 @@ def get_cube(n):
  ```python
  res = get_cube(5)
  new_res = iter(res)
- next(new_res)
- next(new_res)
- next(new_res)
+ print(next(new_res))
+ print(next(new_res))
+ print(next(new_res))
  ```
   Output:
  ```python
