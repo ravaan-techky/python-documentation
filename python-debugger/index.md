@@ -19,11 +19,13 @@
  
  Before setting debugging, -
  
- ![python_debugger_operations](../../images/python_debugger_1.png)
+ ![python_debugger_operations](../images/python_debugger_1.png)
  
- After setting debugging, -
- ![python_debugger_operations](../../images/python_debugger_2.png)
+ After setting debugging with quit option, -
+ ![python_debugger_operations](../images/python_debugger_2.png)
 
+After setting debugging with continue option, -
+ ![python_debugger_operations](../images/python_debugger_3.png)
 
 <br/><br/>
 [<i class="fa fa-arrow-left"></i> **Back**](/python-documentation/)
