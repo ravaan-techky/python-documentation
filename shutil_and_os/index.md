@@ -32,27 +32,27 @@
 
 **Example for os.walk method:**
 ```python
-	import os;
-	for folder, sub_folders, files in os.walk('D:\Workspaces\python-workspace\simple-code'):
-		print(f'Folder {folder}')
-		for sub_folder in sub_folders:
-			print(f'\t\t Sub Folder - {sub_folder}')
-		for file in files:
-			print(f'\t\t File - {file}')
+import os;
+for folder, sub_folders, files in os.walk('D:\Workspaces\python-workspace\simple-code'):
+	print(f'Folder {folder}')
+	for sub_folder in sub_folders:
+		print(f'\t\t Sub Folder - {sub_folder}')
+	for file in files:
+		print(f'\t\t File - {file}')
 ```
 Output:
 ```python
-	Folder D:\Workspaces\python-workspace\simple-code
-			 Sub Folder - .ipynb_checkpoints
-			 File - Collections.ipynb
-			 File - decorators.ipynb
-			 File - generators.ipynb
-			 File - Untitled.ipynb
-	Folder D:\Workspaces\python-workspace\simple-code\.ipynb_checkpoints
-			 File - Collections-checkpoint.ipynb
-			 File - decorators-checkpoint.ipynb
-			 File - generators-checkpoint.ipynb
-			 File - Untitled-checkpoint.ipynb
+Folder D:\Workspaces\python-workspace\simple-code
+		 Sub Folder - .ipynb_checkpoints
+		 File - Collections.ipynb
+		 File - decorators.ipynb
+		 File - generators.ipynb
+		 File - Untitled.ipynb
+Folder D:\Workspaces\python-workspace\simple-code\.ipynb_checkpoints
+		 File - Collections-checkpoint.ipynb
+		 File - decorators-checkpoint.ipynb
+		 File - generators-checkpoint.ipynb
+		 File - Untitled-checkpoint.ipynb
 ```
 
 <br/><br/>
