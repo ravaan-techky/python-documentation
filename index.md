@@ -56,6 +56,7 @@ High Level Programming Language
 - [datetime api module](datetime/index.md)
 - [Math & Random api module](math_and_random/index.md)
 - [Python Debugger](python-debugger/index.md)
+- [Regular Expression](regular_expression/index.md)
  
 <br/><br/>
 [<i class="fa fa-arrow-left"></i> **Back**](/documentation/)
