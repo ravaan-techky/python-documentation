@@ -72,5 +72,55 @@
 		^
 	IndentationError: unexpected indent
  ```
+  Example of creating dictionary from defaultdict class -
+ ```python
+	from collections import defaultdict
+	dict_var = defaultdict(lambda:0)
+	print(dict_var)
+	print(dict_var['new_key'])
+	print(dict_var)
+	dict_var['new_key']=65
+	print(dict_var['new_key'])
+	print(dict_var)
+ ```
+ Output -
+ ```python
+	defaultdict(<function <lambda> at 0x0000020CFD4F33A0>, {})
+	0
+	defaultdict(<function <lambda> at 0x0000020CFD4F33A0>, {'new_key': 0})
+	65
+	defaultdict(<function <lambda> at 0x0000020CFD4F33A0>, {'new_key': 65})
+ ```
+ 
+ **Differences between tuple & namedtuple**
+ - tuples are only accessible through index while namedtuple also accessible through name.
+ - In tuples, always need to remember index of elements.
+ Example of accessing element from tuple -
+ ```python
+	tuple_var = (10, 20, 30)
+	print(tuple_var[1])
+ ```
+ Output -
+ ```python
+	20
+ ```
+  Example of creating tuple from namedtuple class -
+ ```python
+	from collections import namedtuple
+	Dog = namedtuple('Dog',['age', 'name', 'bread'])
+	tommy_dog = Dog(age=3, name='tommy', bread='Huskey')
+	print('=======Dog Information=======')
+	print(f'Name : {tommy_dog.name}')
+	print(f'Bread : {tommy_dog.bread}')
+	print(f'Age : {tommy_dog.age}')
+ ```
+ Output -
+ ```python
+	=======Dog Information=======
+	Name : tommy
+	Bread : Huskey
+	Age : 3
+ ```
+ 
 <br/><br/>
 [<i class="fa fa-arrow-left"></i> **Back**](/python-documentation/)
