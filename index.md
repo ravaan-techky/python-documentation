@@ -55,6 +55,7 @@ High Level Programming Language
 - [SHUTIL & OS Module](shutil_and_os/index.md)
 - [datetime api module](datetime/index.md)
 - [Math & Random api module](math_and_random/index.md)
+- [Python Debugger](python-debugger/index.md)
  
 <br/><br/>
 [<i class="fa fa-arrow-left"></i> **Back**](/documentation/)
