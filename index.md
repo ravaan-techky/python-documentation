@@ -51,6 +51,7 @@ High Level Programming Language
 - [Errors and Exception Handling](errors_and_exceptions/index.md)
 - [Decorators](decorators/index.md)
 - [Generators](generators/index.md)
+- [Collections](collections/index.md)
  
 <br/><br/>
 [<i class="fa fa-arrow-left"></i> **Back**](/documentation/)
