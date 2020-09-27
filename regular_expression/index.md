@@ -1,6 +1,28 @@
 ## Python
 ### Regular Expression
  - Python regular expression module available in re package.
+ 
+ - Special characters used in regular expression, - 
+ 
+ | Character | Description | Example pattern code | Example match |
+ | --- | --- | --- | --- |
+ | \d | A digit | file_\d\d | file_24 |
+ | \w | Aplhanumeric (Also include underscore characters in match) | \w-\w\w\w | A-b_1 |
+ | \s | Whilespace | a\sb\s\c | a b c |
+ | \D | A non digit | \D\D\D\D | aBcD |
+ | \W | Non-alphanumeric | \W\W\W\W\W | *_+=) |
+ | \S | Non-whitespace | \S\S\S\S | Yoyo |
+
+- Occurences related special characters, -
+
+ | Character | Description | Example pattern code | Example match |
+ | --- | --- | --- | --- |
+ | + | Occurs one or more times | Version \w-\w+ | Version A-B_1 |
+ | {3} | Occurs three times | \D{3} | 123 |
+ | {2,4} | Occurs 2 to 4 times | \d{2,4} | 123 |
+ | {3,} | Occurs 3 or more times | \w{3,} | sdaw3rfwe4 |
+ | * | Occurs zero or more times | ABC* | AAACCC |
+ | ? | Occur Once or None | plurals? | plural |
 
 **IN keyword example:**
 Input:
