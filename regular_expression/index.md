@@ -28,10 +28,11 @@
  
  | Character | Description | Example pattern code | Example match |
  | --- | --- | --- | --- |
- | | | OR condition in regular expression | r'cat|dog' | Statement 1: This is a dog! <br/>Statement 2: This is a cat! |
+ | '|' (pipe sign) | OR condition in regular expression | r'cat|dog' | Statement 1: This is a dog! <br/>Statement 2: This is a cat! |
  | . (wild char) | period sign indicate wild char for get given position | r'...at' | Statement : The cat in the hat went splat <br/> Result will be - ['e cat', 'e hat', 'splat'] | 
 
 **IN keyword example:**
+
 Input:
 ```python
 my_var = 'bhushan' in 'bhushan is my name'
@@ -43,6 +44,7 @@ True
 ```
 
 **Simple Expression search function example:**
+
 Input:
 ```python
 import re
@@ -96,6 +98,7 @@ phone
 ```
 
 **Simple Expression findall function example:**
+
 Input:
 ```python
 import re
@@ -141,6 +144,7 @@ phone found at: 78, 83
 **Note: finditer function iterate over match object while findall function return only occurences**
 
 **Regular Expression search function example:**
+
 Input:
 ```python
 import re
@@ -157,6 +161,7 @@ Output:
 ```
 
 **Regular Expression compile and search function example:**
+
 compile function from re package compile regular expression and divide it into groups. For this purpose it uses open and closing brackets.
 
 Input:
