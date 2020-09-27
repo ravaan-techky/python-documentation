@@ -24,6 +24,13 @@
  | * | Occurs zero or more times | ABC* | AAACCC |
  | ? | Occur Once or None | plurals? | plural |
 
+ - Condition based regular expression characters, -
+ 
+ | Character | Description | Example pattern code | Example match |
+ | --- | --- | --- | --- |
+ | | | OR condition in regular expression | r'cat|dog' | Statement 1: This is a dog! <br/>Statement 2: This is a cat! |
+ | . (wild char) | period sign indicate wild char for get given position | r'...at' | Statement : The cat in the hat went splat <br/> Result will be - ['e cat', 'e hat', 'splat'] | 
+
 **IN keyword example:**
 Input:
 ```python
