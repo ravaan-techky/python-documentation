@@ -211,7 +211,6 @@ Available friend is Harshal
 
 **Wild char Regular Expression (period sign) example:**
 
-
 Input:
 ```python
 import re
@@ -229,6 +228,18 @@ Output:
 ```python
 Result found with start index 30 and end index 44
 Available friend is my good friend
+```
+
+**Exclusion operation with Regular Expression example:**
+
+Input:
+```python
+import re
+#exclusion syntax with the help of regular expression
+statement = 'there are 3 numbers 34 inside 5 this sentence'
+pattern = r'[^\d]'  # Generate list of characters from above statement
+pattern = r'[^\d]+' # Generate list of words which gets separated with number
+re.findall(pattern, statement)
 ```
 
 <br/><br/>
