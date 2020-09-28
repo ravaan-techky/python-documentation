@@ -100,9 +100,8 @@
    ```
    
    Output:
-   ``'python
+   ```python
    13.3 µs ± 263 ns per loop (mean ± std. dev. of 7 runs, 100000 loops each)
    ```
    
-
    
