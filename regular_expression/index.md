@@ -232,7 +232,6 @@ Available friend is my good friend
 
 **Exclusion operation with Regular Expression example:**
 
-Input:
 ```python
 import re
 #exclusion syntax with the help of regular expression
