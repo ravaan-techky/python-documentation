@@ -188,6 +188,48 @@ Group 2 999
 Group 3 9999
 ```
 
+**Multiple Regular Expression with OR condition (PIPE separator) example:**
+
+Input:
+```python
+import re
+friend_name = 'Harshal'
+statement = f'{friend_name} is my friend and He is my best friend and his contact detail is 838-009-3898'
+pattern = re.compile('Abhay|Harshal|Sanjay|Abhijeet')
+search_result = re.search(pattern, statement)
+if search_result != None:
+    print(f'Result found with start index {search_result.start()} and end index {search_result.end()}')
+    print(f'Available friend is {search_result.group()}')
+else:
+    print('No result found!')
+```
+Output:
+```python
+Result found with start index 0 and end index 7
+Available friend is Harshal
+```
+
+**Wild char Regular Expression (period sign) example:**
+
+
+Input:
+```python
+import re
+friend_name = 'Sanket'
+statement = f'{friend_name} is my friend and He is my good friend and his contact detail is 838-009-3898'
+pattern = re.compile('my......friend')
+search_result = re.search(pattern, statement)
+if search_result != None:
+    print(f'Result found with start index {search_result.start()} and end index {search_result.end()}')
+    print(f'Available friend is {search_result.group()}')
+else:
+    print('No result found!')
+```
+Output:
+```python
+Result found with start index 30 and end index 44
+Available friend is my good friend
+```
 
 <br/><br/>
 [<i class="fa fa-arrow-left"></i> **Back**](../)
