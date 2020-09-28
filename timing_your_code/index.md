@@ -54,7 +54,45 @@
    print(f'Elapsed Time = {elapsed_time}') # ==> Elapsed Time = 0.2002100944519043
    ```
 
-### Using the timeit module
+### Using the timeit module api
+
+**Solution1 implementation:**
+  ```python
+  #timeit api use to call same code multiple time to check performance multiple time.
+  import timeit
+  statement_1 = '''
+  method_one(100)
+  '''
+  setup_1 = '''
+  def method_one(number):
+      return [str(num) for num in range(number)]
+  '''
+  ```
+  
+  Calling multiple time:
+  ```python
+  timeit.timeit(statement_1, setup_1, number = 1000000) # ==> 15.495843400000012
+  ```
+
+**Solution2 implementation:**
+  ```python
+  #timeit api use to call same code multiple time to check performance multiple time.
+  import timeit
+  statement_2 = '''
+  method_one(100)
+  '''
+  setup_2 = '''
+  def method_two(number):
+    return list(map(str, range(number)))
+  '''
+  ```
+  
+  Calling multiple time:
+  ```python
+  timeit.timeit(statement_2, setup_2, number = 1000000) # ==> 12.765108300000065
+  ```
+
+### Using the timeit magic function of Jupyter Notebooks
 
 **Solution 1 implementation:**
    ```python
