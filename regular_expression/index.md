@@ -28,8 +28,10 @@
  
  | Character | Description | Example pattern code | Example match |
  | --- | --- | --- | --- |
- | '|' (pipe sign) | OR condition in regular expression | r'cat|dog' | Statement 1: This is a dog! <br/>Statement 2: This is a cat! |
+ | pipe sign | OR condition in regular expression | r'cat|dog' | Statement 1: This is a dog! <br/>Statement 2: This is a cat! |
  | . (wild char) | period sign indicate wild char for get given position | r'...at' | Statement : The cat in the hat went splat <br/> Result will be - ['e cat', 'e hat', 'splat'] | 
+ | ^ (power sign) | First occurence should match with pattern | r'^\d' | Statement : 2 is Number. <br/> Result will be - [2] | 
+ | $ (dollar sign) | Last occurence should match with pattern | r'$\d' | Statement : The Number is 2 <br/> Result will be - [2] | 
 
 **IN keyword example:**
 
