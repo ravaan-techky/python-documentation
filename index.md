@@ -57,6 +57,7 @@ High Level Programming Language
 - [Math & Random api module](math_and_random/index.md)
 - [Python Debugger](python-debugger/index.md)
 - [Regular Expression](regular_expression/index.md)
+- [Performance Timing Of Code Using timeit module](timing_your_code/index.md)
  
 <br/><br/>
 [<i class="fa fa-arrow-left"></i> **Back**](/documentation/)
