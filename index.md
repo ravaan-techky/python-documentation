@@ -58,6 +58,7 @@ High Level Programming Language
 - [Python Debugger](python-debugger/index.md)
 - [Regular Expression](regular_expression/index.md)
 - [Performance Timing Of Code Using timeit module](timing_your_code/index.md)
+- [Zipping and Unzipping Files](zip_and_unzip/index.md)
  
 <br/><br/>
 [<i class="fa fa-arrow-left"></i> **Back**](/documentation/)
